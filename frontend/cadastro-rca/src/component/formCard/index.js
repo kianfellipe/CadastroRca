@@ -141,30 +141,7 @@ function Rca() {
                                         <input type="radio" id="outros" name="genero" value="outros"  />
                                     </div>
                                 </div>
-                            </div> 
-
-                            <div className="inputBox" style={stGen}>
-                                Sexo:
-                                <div className="radio"  value={sex}
-                                onChange={(e) => onInputChange(e)}>
-                                    <div className="input_div">
-                                        <label htmlFor="feminino">Feminino</label>
-                                        <input type="radio" id="feminino" name="genero" value="feminino"  
-                                        />
-                                    </div>
-
-                                    <div className="input_div">
-                                        <label htmlFor="masculino">Masculino</label>
-                                        <input type="radio" id="masculino" name="genero" value="masculino"  />
-                                    </div>
-
-                                    <div className="input_div">
-                                        <label htmlFor="outros">Outro</label>
-                                        <input type="radio" id="outros" name="genero" value="outros"  />
-                                    </div>
-                                </div>
-                            </div> 
-
+                            </div>
 
 
                             <div id="nascimento" className="inputBox">
